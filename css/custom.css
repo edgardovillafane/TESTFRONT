@@ -1,0 +1,124 @@
+:root {
+    --main: #BE7261; 
+}
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:500');
+html{
+	padding: 0;
+}
+.cont-header{
+	background-color: var(--main);
+	padding-bottom: 20px; 
+}
+.cont-cuerpo{
+	background-color: #f7f7f7; 
+	background-image: url(../img/fondo.jpg);
+}
+.garam{
+	font-family: 'EB Garamond', serif;
+}
+.txt45{
+	font-size:48px;
+}
+.txt11{
+	font-size:11px;
+}
+.txt-blanco{
+	color:white;
+}
+.txt-main{
+	color:var(--main);
+}
+
+.fw500{
+	font-weight: 500;
+}
+.sub{
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	width: fit-content;
+	margin: 0 auto;
+}
+.trad{
+	display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+}
+
+.trad a{
+	color:white;
+	font-size:0.6em; 
+}
+.trad a.active{
+	font-weight: bold;
+}
+.check { 
+	border: 1px solid var(--main);
+	background-color: white;
+	margin-right: 10px;
+	border-radius: 2px;
+	width:15px;
+	height: 15px;
+	margin-top:5px;
+ }
+input.texto { 
+	border: 1px solid var(--main);
+	height: 30px;
+	padding-left: 10px;
+	background-color: white;
+	margin-right: 10px;
+	border-radius: 2px;
+	line-height: 30px;
+ }
+input::placeholder {
+	color: lightgray;
+	font-family: Arial, FontAwesome;
+	font-size: 13px;
+	top:-5px;
+}
+input.email::placeholder {
+	font-style: italic;
+}
+.boton{
+    border: 1px solid var(--main);
+    background-color: var(--main);
+    padding: 3px;
+    border-radius: 20px;
+    width: 200px;
+    color: white;
+    font-weight: 500;
+    line-height: 26px;
+}
+.iconos{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border: 1px solid var(--main);
+	border-radius: 50%;
+	color: #be7261;
+	font-size: 14px;
+}
+.logoca{
+	max-width: 170px;
+}
+.logofo{
+	max-width: 130px;
+}
+.acepto{
+	margin: 0 5px;
+	color: var(--main);
+	font-weight: bold;
+}
+.cond{
+	font-size: 12px;
+    line-height: 24px;
+}
+.logosprado img{
+max-width: 170px
+}
+
+@media screen and (max-width: 700px){
+
+	.txt45{
+		font-size:32px;
+	}
+}
